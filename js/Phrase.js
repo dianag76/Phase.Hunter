@@ -1,9 +1,4 @@
-/* Treehouse FSJS Techdegree
- * Project 4 - OOP Game App
- * Phrase.js */
-
 //Declare all variables
-
 const addPhrase = document.getElementById("phrase");
 const keyLetter = document.getElementsByClassName("key");
 const phraseTitle = document.getElementsByClassName("letter");
