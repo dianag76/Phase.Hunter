@@ -1,10 +1,4 @@
-/* Treehouse FSJS Techdegree
- * Project 4 - OOP Game App
- * Game.js */
-
-// Comment 
-
-
+//Constructor for phases that will be used in the game.
 class Game {
     constructor() {
         this.missed = 0;
@@ -79,7 +73,9 @@ class Game {
 
 
     resetGame() {
+        const ul = document.querySelector("#phrase ul");
         ul.innerHTML = '';
+        console.log(ul);
         keyboardKeys.forEach(button => {
             button.classList.remove('wrong');
             button.classList.remove('chosen');
